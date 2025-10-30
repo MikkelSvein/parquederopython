@@ -1,0 +1,5 @@
+body{font-family: Arial, sans-serif; background:#f4f4f4; margin:0}
+.site-header{background:#222;color:#fff;padding:10px}
+.site-header nav a{color:#fff;margin-right:10px}
+main{padding:20px}
+footer{padding:10px;text-align:center;background:#eee;margin-top:20px}

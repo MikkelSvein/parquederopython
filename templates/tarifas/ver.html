@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Tarifas actuales</h2>
+{% if t %}
+  <ul>
+    <li>Bicicleta: ${{ t.bicicleta }}</li>
+    <li>Moto: ${{ t.moto }}</li>
+    <li>Carro: ${{ t.carro }}</li>
+    <li>Bus: ${{ t.bus }}</li>
+  </ul>
+  <p><a href="{% url 'editar_tarifas' %}">Editar tarifas</a></p>
+{% else %}
+  <p>No hay tarifas definidas.</p>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="UTF-8"><title>Vehículos</title></head>
+<body>
+    <h1>Vehículos Registrados</h1>
+    <ul>
+        {% for v in vehiculos %}
+            <li>{{ v.placa }} - {{ v.tipo }} - {{ v.nombre }}</li>
+        {% empty %}
+            <li>No hay vehículos registrados.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
