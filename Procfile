@@ -1,1 +1,1 @@
-web: gunicorn parqueadero_la64.wsgi
+web: gunicorn parqueadero_la64_django.wsgi
