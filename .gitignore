@@ -1,0 +1,65 @@
+# 🐍 Archivos de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.log
+
+# 🧱 Entorno virtual
+.env
+venv/
+env/
+.venv/
+
+# ⚙️ Archivos de configuración y dependencias
+*.sqlite3
+db.sqlite3
+*.pot
+*.py~
+*.swp
+
+# 🗂️ Configuración local de Django
+local_settings.py
+
+# 💾 Archivos compilados o temporales
+*.mo
+*.pot
+*.log
+*.bak
+*.tmp
+
+# 📦 Dependencias instaladas
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+wheels/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# 🧪 Archivos de test
+.coverage
+.tox/
+.nox/
+pytest_cache/
+htmlcov/
+
+# 🧰 IDEs y editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 📁 Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# 🚀 Archivos de despliegue
+staticfiles/
+media/
